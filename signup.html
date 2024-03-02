@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>SIGN UP PAGE</title>
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="register_toggle">
+        <div class="slider">
+          
+          <form class="form">
+            <span class="title">Sign Up</span>
+            <div class="form_control">
+              <input type="text" class="input" required="">
+              <label class="label">Username</label>
+            </div>
+            <div class="form_control">
+              <input type="email" class="input" required="">
+              <label class="label">Email</label>
+            </div>
+            <div class="form_control">
+              <input type="password" class="input" required="">
+              <label class="label">Password</label>
+            </div>
+            <button onclick="nextPage1()" >Sign Up</button>
+      
+            <span class="bottom_text">Already have an account? <label for="register_toggle" class="swtich">Login</label> </span>
+          </form>
+          <form class="form">
+            <span class="title">Login</span>
+            <div class="form_control">
+              <input type="text" class="input" required="">
+              <label class="label">Email</label>
+            </div>
+            <div class="form_control">
+              <input type="password" class="input" required="">
+              <label class="label">Password</label>
+            </div>
+            <button onclick="nextPage1()">Login</button>
+      
+            <span class="bottom_text">Don't have an account? <label for="register_toggle" class="swtich">Sign Up</label> </span>
+          </form>
+          
+          </div>
+      </div>
+
+      <script src="login.js"></script>
+</body>
+</html>
